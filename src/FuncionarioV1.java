@@ -1,6 +1,5 @@
-
 public class FuncionarioV1 {
-    String funcionario;
+    String nome;
     String departamento;
     double salario;
     String data;
@@ -14,4 +13,9 @@ public class FuncionarioV1 {
         
     }
     
+    void demite()
+    {
+    ativo=false;
+    
+    }
 }
